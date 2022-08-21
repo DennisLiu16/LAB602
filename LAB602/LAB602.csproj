@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\BOS1901.png" />
+    <None Remove="Images\enlarge.png" />
+    <None Remove="Images\exit.png" />
+    <None Remove="Images\hide.png" />
+    <None Remove="Images\Intro.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\Hardware\" />
+    <Folder Include="Core\Project\" />
+    <Folder Include="MVVM\Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\BOS1901.png" />
+    <Resource Include="Images\enlarge.png" />
+    <Resource Include="Images\exit.png" />
+    <Resource Include="Images\hide.png" />
+    <Resource Include="Images\Intro.png" />
+  </ItemGroup>
+
+</Project>
